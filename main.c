@@ -3,7 +3,7 @@
 #include <unistd.h>
 #include <string.h>
 
-int main(int argc, char const *argv[])
+int main(int argc, char *argv[])
 {
     char fileName[256];
     struct monthData month[COUNT_MONTH] = {0};

@@ -5,7 +5,7 @@
 typedef struct data
 {
     int year, month, day, hour, min, temperature;
-};
+} data;
 
 typedef struct monthData
 {
@@ -14,7 +14,7 @@ typedef struct monthData
     int minTemperature;
     long long signed int countSense;
     long long signed int totalTemperature;
-};
+} monthData;
 
 int MaxMonthTemperature(struct monthData *month, int monthNumber, int temperature);
 
