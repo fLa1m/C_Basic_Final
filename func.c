@@ -96,10 +96,6 @@ int ScanKeys(int argc, char *argv[], char *fileName)
     }
     while ((rez = getopt(argc, argv, "hf:m:")) != -1)
     {
-        /*if (argc == 1)
-        {
-            printf("Error found! No such key exists. Try -h for help.\n");
-        }*/
         switch (rez)
         {
         case 'h':
